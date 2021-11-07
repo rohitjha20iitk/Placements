@@ -6,7 +6,7 @@
 6) Hiding internal details and showing functionality is known as abstraction. For example: phone call, we don't know the internal processing. In C++, we use abstract class and interface to achieve abstraction.
 7) Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
 8) Advantages of OOPS:
-     i) OOPs makes development and maintenance easier
-     ii) OOPs provide data hiding
+     i) OOPs makes development and maintenance easier \br
+     ii) OOPs provide data hiding \br
      iii) OOPs provide ability to simulate real-world event much more effectively.
 9) 
