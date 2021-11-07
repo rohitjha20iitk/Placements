@@ -8,5 +8,10 @@
 8) Advantages of OOPS:
      i) OOPs makes development and maintenance easier </br>
      ii) OOPs provide data hiding </br>
-     iii) OOPs provide ability to simulate real-world event much more effectively.
-9) 
+     iii) OOPs provide ability to simulate real-world event much more effectively </br>
+     iv) OOPs is faster and easier to execute </br>
+     v) OOPs provides a clear structure for the programs </br>
+     vi) OOPs helps to keep the C++ code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug </br>
+     vii) OOPs makes it possible to create full reusable applications with less code and shorter development time
+9) The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+10) Procedural programming is about writing procedures or functions that perform operations on the data, while object-oriented programming is about creating objects that contain both data and functions.
