@@ -22,5 +22,7 @@
      --> So, above statement proves, OOPs provides code reusability which reduce the duplication of code because once you have duplicate code, you can make changes everywhere
          which leads to performance </br>
      --> Code can be changed anytime or requirement of application can change anytime so when you want to make changes in your application, OOPs makes it easier </br>
-13) 
+13) https://www.c-sharpcorner.com/forums/why-we-need-oops-in-programming-language
+14) https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/02/CS101-2.1.2-AdvantagesDisadvantagesOfOOP-FINAL.pdf
+15) 
      
