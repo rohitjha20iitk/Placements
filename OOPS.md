@@ -4,4 +4,9 @@
 4) When one object acquires all the properties and behaviours of parent object i.e. known as inheritance. It provides code reusability and used to achieve runtime polymorphism.
 5) When one task is performed by different ways i.e. known as polymorphism. In C++, we use Function overloading and Function overriding to achieve polymorphism.
 6) Hiding internal details and showing functionality is known as abstraction. For example: phone call, we don't know the internal processing. In C++, we use abstract class and interface to achieve abstraction.
-7) 
+7) Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
+8) Advantages of OOPS:
+     i) OOPs makes development and maintenance easier
+     ii) OOPs provide data hiding
+     iii) OOPs provide ability to simulate real-world event much more effectively.
+9) 
