@@ -15,3 +15,12 @@
      vii) OOPs makes it possible to create full reusable applications with less code and shorter development time
 9) The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
 10) Procedural programming is about writing procedures or functions that perform operations on the data, while object-oriented programming is about creating objects that contain both data and functions.
+11) https://fdhgjhjhukj.medium.com/object-oriented-programming-with-real-world-example-63f69f917d62
+12) Following two concepts explains everything why we need OOPs: </br>
+     i) Duplicate code is a Bad </br>
+     ii) Code will always be changed </br>
+     --> So, above statement proves, OOPs provides code reusability which reduce the duplication of code because once you have duplicate code, you can make changes everywhere
+         which leads to performance </br>
+     --> Code can be changed anytime or requirement of application can change anytime so when you want to make changes in your application, OOPs makes it easier </br>
+13) 
+     
