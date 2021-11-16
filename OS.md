@@ -121,7 +121,18 @@
        ii) h/w type: TSL instruction set
        iii) OS type: counting and binary semaphore
        iv) programming language compiler support type: monitors
-79) Lock varibales: ME is not satisfied
-80) Strict Alteration(process takes turn to enter in CS): Me is satisified but progress is not satisfied.
+79) Lock varibales: ME and bounded waiting is not satisfied
+80) Strict Alteration(process takes turn to enter in CS): progress is not satisfied.
 81) If any solution is having deadlock, progress is not satisfied.
 82) petersons algo(2 process solution): All 3 satisifed. correct solution
+83) TSL instruction set: copies the current value of flag in register and stores the value of "1" into flag in a single atomic cycle without any preemption.
+84) TSL: ME and progress satisfied but bounded waiting not
+85) even in RR bounded waiting is not satisfied.
+86) if some process is in CS the other process outside CS which are trying to enter in CS will be busy in waiting checking all 3 conditions this is called busy waiting also called as spin lock.
+87) to avoid busy waiting the concept of semaphore is used.
+88) semaphore is an integer variable which is used by various processes in a mutual exclusive manner to achieve synchronisation.
+89) down() or wait() or p() and up() or signal() or v() or release()
+90) after performing down operation if process is getting suspended, then it is called unsuccessful down operation otherwise successful down operation.
+91) suspended process PCB placed in suspended list.
+92) up operation is always successful.
+93) 
