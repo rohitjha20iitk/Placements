@@ -96,4 +96,16 @@
 59) In RR, if time quantum is less then no of context switches will increase and response time will be less.
 60) In RR, if time quantum is more then no of context switches will decrease and response time will be more.
 61) In RR, if time quantum is more than all BT, it behaves like FCFS.
-62) 
+62) Highest Response Ratio Next(HRRN) : Non preemptive.  Response ratio = (w + s) / s where w = waiting time and s = burst time.
+63) HRRN favours shorter jobs and limits the waiting time of longer jobs.
+64) Multilevel queue scheduling: high priority process placed in top level ready queue and low priority process in bottom level ready queue.
+65) Only after completion of all process in top level ready queue further level ready queue processes will be scheduled.
+66) If this is the strategy, then processes in bottom level ready queue suffer from starvation.
+67) Starvation: Indefinite waiting of a process.
+68) To avoid the problem of starvation, the concept of ageing is used.
+69) Ageing: If the waiting time of a process increases, then priority of that process will be increased.
+70) Multilevel feedback queue scheduling: every process will definitely get a chance to execute but still there is a possibility of starvation.
+71) No starvation in : FCFS, LRTF, RR, HRRN
+72) The execution of one process affects or affected by other processes then those processes are said to be co-operative processes otherwise they are said to be independent processes.
+73) If the processes are not properly synchronised then problems can be : inconsistency, loss of data, deadlock.
+74) 
