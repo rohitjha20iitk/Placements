@@ -121,4 +121,7 @@
        ii) h/w type: TSL instruction set
        iii) OS type: counting and binary semaphore
        iv) programming language compiler support type: monitors
-       
+79) Lock varibales: ME is not satisfied
+80) Strict Alteration(process takes turn to enter in CS): Me is satisified but progress is not satisfied.
+81) If any solution is having deadlock, progress is not satisfied.
+82) petersons algo(2 process solution): All 3 satisifed. correct solution
