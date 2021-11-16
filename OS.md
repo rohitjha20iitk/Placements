@@ -87,4 +87,10 @@
        iii) MTS or medium term scheduler: responsible for suspending and resuming process. The job done by MTS is called swapping.
 51) Dispatcher: responsible of loading the selected job onto the CPU. Also responsible for context switching.
 52) LTS controls degree of multiprogramming.
-53) 
+53) Arrival time: the time when process arrives in ready state.
+54) Turn Around time: CT - AT
+55) Waiting time: TAT - BT
+56) Response time: time difference between first response and arrival time
+57) Goal of cpu scheduling: to maximise cpu utilisation, throughput of system and to minimise avg WT, TAT, RT.
+58) Convoy effect: In FCFS, if 1st process is CPU bound followed by many I/O bound processes, then it will have major effect on avg WT of process.
+59) 
