@@ -108,4 +108,17 @@
 71) No starvation in : FCFS, LRTF, RR, HRRN
 72) The execution of one process affects or affected by other processes then those processes are said to be co-operative processes otherwise they are said to be independent processes.
 73) If the processes are not properly synchronised then problems can be : inconsistency, loss of data, deadlock.
-74) 
+74) Critical section: The portion of program text where shared resources/variables will be placed.
+75) Non CS: independent code of the process will be placed.
+76) Race condition: the final value of any variable depends on the execution sequence of the processes. To avoid race condition, only 1 process is allowed to enter in CS.
+77) the conditions to be followed to achieve synchronisation:
+       i) ME: Only 1 process in CS at any time
+       ii) progress: No process running outside the CS should block the other interested process from entering in CS when CS is free.
+       iii) bounded waiting: No process should have to wait forever to enter in CS. If bounded waiting is not satisfied, then it is possible for starvation.
+       iv) no assumptions related to hardware and processor speed.
+78) step no.3 solutions:
+       i) s/w type: lock variables, strict alteration or deckers algo, petersons algo
+       ii) h/w type: TSL instruction set
+       iii) OS type: counting and binary semaphore
+       iv) programming language compiler support type: monitors
+       
