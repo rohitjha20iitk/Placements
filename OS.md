@@ -135,4 +135,10 @@
 90) after performing down operation if process is getting suspended, then it is called unsuccessful down operation otherwise successful down operation.
 91) suspended process PCB placed in suspended list.
 92) up operation is always successful.
-93) 
+93) Every semaphore variable will have its own suspended list.
+94) If two or more processes are in suspended list and there is no other process to wake up them then those processes are said to be in deadlock.
+95) Dining philospher: take left fork and then right fork but if all philospher are hungry at same time then they will be in deadlock.
+96) monitor is collection of variables, condition variables and procedures combined together in a special kind of module or package.
+97) The process running outside the monitor can't access the internal varables of the monitor but they can call the procedures of montor.
+98) Only one process can be active inside monitor at any time.
+99) 
