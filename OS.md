@@ -93,4 +93,4 @@
 56) Response time: time difference between first response and arrival time
 57) Goal of cpu scheduling: to maximise cpu utilisation, throughput of system and to minimise avg WT, TAT, RT.
 58) Convoy effect: In FCFS, if 1st process is CPU bound followed by many I/O bound processes, then it will have major effect on avg WT of process.
-59) 
+59) hihi
