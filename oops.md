@@ -12,4 +12,6 @@
 12) class2 is child of class1 then class2 can use public and protected member variables only not private member variable.
 13) If class2 is not child of class1 then class2 can only use public member variables like in main class we can't use protected or private member variables.
 14) With this approach, we can hide our data. This is called data hiding.
-15) 
+15) Class is a user defined datatype, which holds its own data members and member funbctions. Class helps in code reusability.
+16) Encapsulation is wraping up variables and methods in class. It helps in data hiding with the help of access specifiers.
+17) 
