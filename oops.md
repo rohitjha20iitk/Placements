@@ -39,4 +39,13 @@
 39)  There is a different way to call parameterised constructor of base class (in photo)
 40)  Function overriding: derived class object would call the function of derived class if same function exists in both classes(i.e. base and derived class)
 41)  if we write base::Msg() in derived class that has already a function named Msg() then it will call the base class Msg function. In this way we can call Msg function of base class.
-42)   
+42)  isA relationship = Inheritance
+43)  hasA relationship = implemented using objects we create objects of class whose function we need to use.
+44)  isA relationship is based on inheritance while hasA relationship is based on objects.
+45)  isA relationship expose all public data of base classes but hasA relationship does not expose all data but it uses relevant data.
+46)  isA relationship is static binding(compile time) while hasA relationship is dynamic binding (run time).
+47)  isA relationship is used when we can inherit something while hasA relationship is used when we can't inherit most of the things.
+48)  child and grandchild class would not be able to access both private bur be able to access both protected and public.
+49)  protected would be inherited as protected and public would be inherited as public in child and grandchild class.
+50)  protected inheritance (class derived : protected base) protected and public in parent class would be inherited as protected in child and grandchild class.
+51)  
