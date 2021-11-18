@@ -48,4 +48,14 @@
 48)  child and grandchild class would not be able to access both private bur be able to access both protected and public.
 49)  protected would be inherited as protected and public would be inherited as public in child and grandchild class.
 50)  protected inheritance (class derived : protected base) protected and public in parent class would be inherited as protected in child and grandchild class.
-51)  
+51)  Base class pointer and derived class object: Base * ptr = NULL; ptr = new Derived();  The pointer is of base class but object is of derived class but it will not throw any error as base class is compatible with derived class.
+52)  If we treat base class as car and derived class as advanced car, then we are saying that we are sitting in a normal car pointing towards a ferrari and saying that our car is also ferrari. We can't access the member functions of derived class with base class pointer.
+53)  Virtual function is a function existing in class that can't be used.
+54)  Virtual functiom : Program that appears to be calling function of one class but in reality maybe calling function of different class.
+55)  By making base class function virtual as mentioned in pics, we can tell compiler that show() is my derived class function not base class func.
+56)  Late binding/ Dynamic binding: Compiler defer the decision until the program is running. And at runtime when it comes to know which class is pointed by ptr, then appropriate function will be called.
+57)  When we place virtual word in front of a function in base class then it becomes a virtual function.
+58)  Abstract class is used when we never want to instantiate object of BASE class.
+59)  When we say (virtual returntype funcname() = 0;) then it becomes a pure virtual function and if a pure virtual function exists in a class then it becomes an abstract class
+60)  Abstract class exists only to "ACT" as parent of derived class. It itself has no functionalities.
+61)  pure virtual function does not have a body.
