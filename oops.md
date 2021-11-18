@@ -13,5 +13,15 @@
 13) If class2 is not child of class1 then class2 can only use public member variables like in main class we can't use protected or private member variables.
 14) With this approach, we can hide our data. This is called data hiding.
 15) Class is a user defined datatype, which holds its own data members and member funbctions. Class helps in code reusability.
-16) Encapsulation is wraping up variables and methods in class. It helps in data hiding with the help of access specifiers.
-17) 
+16) Encapsulation is wraping up variables and methods in class. It helps in data hiding with the help of access specifiers. Security of data.
+17) Polymorphism : Function Overloading. 2 ways: one by changing number of arguments one by changing datatype. Polymorphism helps in reducing the complexity and length of code.
+18) Abstraction is hiding complicated things from user like a coffee machine.
+19) https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/
+20) Constructor is having same name as class and they don't return anything. A a_obj(28)
+21) Need for constructor: programmers may forgot to initialise data members in object. When there are many objects, then we need to call set data for each object.
+22) When constructor is called, it first allocates memory to data members and then initialise it.
+23) Non-parameterised constructor/default constructor: that does not take any argument. data member set with default value so do not need to pass arguments. If you don't create a constructor then default constructor will work and set the data members with default or garbage value.
+24) Parameterised constructor: that takes some arguments.
+25) Copy constructor are used to create new objects from existing objects. A a_obj2(a_obj1) // copy constructor
+26)  A(A &a_obj1) { age = a_obj1.age; }
+27)  Overloaded constructor: overload parameterised and non-parameterised constructor. A(int x = 0) { age = x;}
