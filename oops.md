@@ -32,5 +32,11 @@
 32)  Base class is parent class and derived class is child class.
 33)  Inheritance is acquiring properties of another class.
 34)  Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
-35)  if derived class has no constructor then it will call the constructor of base class.
-36)  
+35)  if derived class has no constructor then it will call the constructor of base class (ONLY APPLICABLE FOR DEFAULT CONSTRUCTOR) 
+36)  parameterised constructor will give error.
+37)  when we call default constructor of derived class it first calls the base class default constructor and then default constructor of derived class.
+38)  when we call parameterised constructor of derived class it first calls the base class default constructor (not parameterised constructor of base class) and then parameterised constructor of derived class.
+39)  There is a different way to call parameterised constructor of base class (in photo)
+40)  Function overriding: derived class object would call the function of derived class if same function exists in both classes(i.e. base and derived class)
+41)  if we write base::Msg() in derived class that has already a function named Msg() then it will call the base class Msg function. In this way we can call Msg function of base class.
+42)   
