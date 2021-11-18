@@ -24,4 +24,13 @@
 24) Parameterised constructor: that takes some arguments.
 25) Copy constructor are used to create new objects from existing objects. A a_obj2(a_obj1) // copy constructor
 26)  A(A &a_obj1) { age = a_obj1.age; }
-27)  Overloaded constructor: overload parameterised and non-parameterised constructor. A(int x = 0) { age = x;}
+27)  Overloaded constructor: overload parameterised and non-parameterised constructor. A(int x = 0) { age = x;} default value set in parameter only.
+28)  We can declare a function in class and its definition outside the class as returntype classname::func(arguments){ } where :: is scope resolution.
+29)  Operator overloading: when we make operators like +,-,/,* work for user defined datatypes likes objects and structures.
+30)  Operator overloading in details in picture(ss)
+31)  How can we differentiate overloading of pre and post increment in post increment overloading we write int in arguments to differentiate it with pre increment overloading.
+32)  Base class is parent class and derived class is child class.
+33)  Inheritance is acquiring properties of another class.
+34)  Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
+35)  if derived class has no constructor then it will call the constructor of base class.
+36)  
