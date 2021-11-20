@@ -14,24 +14,24 @@
    By default, access specifier is private. Private means member variables and member functions can be used within the class only. Make member variables as private so that it    can't be accessed outside class making it safe and make your member functions as public so that your class function can be accessed from outside and the function can          access member variables.
 7) What happens when we create an object ? </br>
    Whenever we create an object member variables will get fresh or new space each time while member functions are shared between them.
-9) What is encapsulation ? </br>
+8) What is encapsulation ? </br>
    The process of combining member variables and member functions is called encapsulation. Encapsulation is wraping up variables and methods in class. It helps in data hiding    with the help of access specifiers. Security of data is possible in this way.
-10) What is abstraction ? </br>
+9) What is abstraction ? </br>
     Abstraction is hiding complicated things from user like a coffee machine.
-11) Difference between abstraction and polymorphism ? </br>
+10) Difference between abstraction and polymorphism ? </br>
     https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/
-13) What is polymorphism ? </br> 
+11) What is polymorphism ? </br> 
     Function Overloading. 2 ways: one by changing number of arguments, one by changing datatype. Polymorphism helps in reducing the complexity and length of code.
-14) What is data hiding ? </br>
+12) What is data hiding ? </br>
     Class2 is child of class1 then class2 can use public and protected member variables. If class2 is not child of class1 then class2 can only use public member variables
      like in main class we can't use protected or private member variables. With this approach, we can hide our data. This is called data hiding.
-15) What is constructor ? </br>
+13) What is constructor ? </br>
     Constructor is having same name as class and they don't return anything. A a_obj(28); // initialise data
-16) Why do we need constructors ? </br>
+14) Why do we need constructors ? </br>
     Programmers may forgot to initialise data members in object. When there are many objects, then we need to call set data for each object.
-17) What happens when constructor is called ? </br>
+15) What happens when constructor is called ? </br>
     When constructor is called, it first allocates memory to data members and then initialise it.
-18) Tyeps of constructor ? </br>
+16) Tyeps of constructor ? </br>
     Non-parameterised constructor/default constructor: that does not take any argument. data member set with default value so do not need to pass arguments. If you don't         create a constructor then default constructor will work and set the data members with garbage value.
     Parameterised constructor: that takes some arguments. </br>
     Copy constructor: They are used to create new objects from existing objects. </br>
@@ -39,48 +39,47 @@
     A(A &a_obj1) {    </br>
         age = a_obj1.age;  </br>
     }  </br>
-19)  What is Overloaded constructor ? </br>
+17)  What is Overloaded constructor ? </br>
      overload parameterised and non-parameterised constructor. </br>
      A(int x = 0) {  // default value set in parameter only </br>
         age = x; </br>
      } </br>
-     
-20)  How can we create function outside the class ? </br> 
+18)  How can we create function outside the class ? </br> 
      We can declare a function in class and its definition outside the class as </br>
      returntype classname::func(arguments) { } where :: is scope resolution. </br>
-21)  What is Operator overloading ? </br> 
+19)  What is Operator overloading ? </br> 
      When we make operators like +,-,/,* work for user defined datatypes likes objects and structures.
-22)  How can we differentiate overloading of pre and post increment ? </br>
+20)  How can we differentiate overloading of pre and post increment ? </br>
      In post increment overloading we write "int" word in arguments to differentiate it with pre increment operator overloading.
-23)  What is inheritance ? </br>
+21)  What is inheritance ? </br>
      Inheritance is acquiring properties of another class. Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
 24)  What happens if we we execute " derived d" and the derived class has no constructor ? </br>
      If derived class has no constructor then it will call the constructor of base class (ONLY APPLICABLE FOR DEFAULT CONSTRUCTOR) 
-25)  What happens if we we execute " derived d(9)" and the derived class has no parameterised constructor ? </br>
+22)  What happens if we we execute " derived d(9)" and the derived class has no parameterised constructor ? </br>
      It will give error.
-26)  What happens if we call "derived d" and derived class has its default constructor ? </br>
+23)  What happens if we call "derived d" and derived class has its default constructor ? </br>
      when we call default constructor of derived class it first calls the base class default constructor and then default constructor of derived class.
-27)  What happens if we call "derived d(9)" and derived class has its parameterised constructor ? </br>
+24)  What happens if we call "derived d(9)" and derived class has its parameterised constructor ? </br>
      When we call parameterised constructor of derived class it first calls the base class default constructor (not parameterised constructor of base class) and then              parameterised constructor of derived class.
-28)  How can we call parameterised constructor of base class ? </br>
+25)  How can we call parameterised constructor of base class ? </br>
      derived(int d) : base(d)
-29)  What is Function overriding? </br>
+26)  What is Function overriding? </br>
      Derived class object would call the function of derived class if same function exists in both classes (i.e. base and derived class)
-30)  How can we call same function of base class through derived class object if derived class has same function already ? </br>
+27)  How can we call same function of base class through derived class object if derived class has same function already ? </br>
      If we write base::Msg() in derived class that has already a function named Msg() then it will call the base class Msg function.
-31)  What is isA relationship ? </br> 
+28)  What is isA relationship ? </br> 
      Inheritance
-32)  What is hasA relationship > </br>
+29)  What is hasA relationship ? </br>
      It is implemented using objects, we create objects of class whose function we need to use.
-33)  What is the difference between isA and hasA relationship ? </br>
+30)  What is the difference between isA and hasA relationship ? </br>
      isA relationship is based on inheritance while hasA relationship is based on objects. </br>
      isA relationship expose all public data of base class but hasA relationship does not expose all data but it uses relevant data.
      isA relationship is static binding (compile time) while hasA relationship is dynamic binding (run time).
      isA relationship is used when we can inherit something while hasA relationship is used when we can't inherit most of the things.
-34)  What is public inheritance ? </br>
+31)  What is public inheritance ? </br>
      child and grandchild class would not be able to access private members but be able to access both protected and public members. </br>
      protected would be inherited as protected and public would be inherited as public in child and grandchild class.
-35)  What is protected inheritance ? </br>
+32)  What is protected inheritance ? </br>
      (class derived : protected base) </br>
      protected and public in parent class would be inherited as protected in child and grandchild class.
 52)  Base class pointer and derived class object: Base * ptr = NULL; ptr = new Derived();  The pointer is of base class but object is of derived class but it will not throw any error as base class is compatible with derived class.
