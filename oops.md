@@ -18,7 +18,7 @@
 8) What is encapsulation ? </br>
    The process of combining member variables and member functions is called encapsulation. Encapsulation is wraping up variables and methods in class. It helps in data hiding    with the help of access specifiers. Security of data is possible in this way.
 9) What is abstraction ? </br>
-    Abstraction is hiding complicated things from user like a coffee machine.
+    Hiding internal details and showing functionality is known as abstraction. Abstraction is hiding complicated things from user like a coffee machine. In C++, we use           abstract class and interface to achieve abstraction.
 10) Difference between abstraction and polymorphism ? </br>
     https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/
 11) What is polymorphism ? </br> 
