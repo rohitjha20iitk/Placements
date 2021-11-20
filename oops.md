@@ -97,6 +97,9 @@
      When we do (virtual returntype funcname() = 0;) then it becomes a pure virtual function and if a pure virtual function exists in a class then it becomes an abstract          class. Pure virtual function does not have a body. </br>
      Abstract class exists only to "ACT" as parent of derived class. It itself has no functionalities. 
 38)  What are Destructors ? </br>
+     It destructs the objects of classes. </br>
+     It can be defined only once in a class. </br>
+     Like constructors, it is invoked automatically.</br>
      They are used to deallocate memory. </br>
      They are used to clean up the class objects and class members. </br>
      They are called when the object is out of scope or we are explicitly deleting the object.
