@@ -1,31 +1,31 @@
-1) What is Procedural programming ?
+1) What is Procedural programming ? </br>
    It is a list of instructions in a single block and suitable only for small programs.
-2) What is Modular programming ? 
+2) What is Modular programming ? </br>
    Modular program is divided into functions and each function has a clear purpose. The limitation is that it is difficult to relate it with real world problems. As modular      programming needs more of our data to be global so that it can be accessed across the program but it has its own limitations. It will create a mesh which is difficult to      modify. The reason for such a mess is that the data and functions are separate. So, we need to bind our data and functions that's what we do in object oriented approach by    creating class.
-3) Do class takes any space ?
+3) Do class takes any space ? </br>
    Class does not occupy any space but object does. Class is just a blueprint.
-4) What is class?
+4) What is class ? </br>
    Class is a user defined datatype, which holds its own data members and member functions. Class helps in code reusability.
-5) How we call member variables and member functions of a class ? 
+5) How we call member variables and member functions of a class ? </br>
    house h1;   ----------->  // this is how we create an object of a class </br>
    h1.len;     ----------->  // this is how we can access member variable of a class </br>
    h1.area();  ----------->  // this is how we can access member functions of a class </br>
-6) By default which access specifier is there in class?
+6) By default which access specifier is there in class ? </br>
    By default, access specifier is private. Private means member variables and member functions can be used within the class only. Make member variables as private so that it    can't be accessed outside class making it safe and make your member functions as public so that your class function can be accessed from outside and the function can          access member variables.
-7) What happens when we create an object?
+7) What happens when we create an object ? </br>
    Whenever we create an object member variables will get fresh or new space each time while member functions are shared between them.
-9) What is encapsulation ? 
+9) What is encapsulation ? </br>
    The process of combining member variables and member functions is called encapsulation. Encapsulation is wraping up variables and methods in class. It helps in data hiding    with the help of access specifiers. Security of data is possible in this way.
-10) What is abstraction ?
+10) What is abstraction ? </br>
     Abstraction is hiding complicated things from user like a coffee machine.
-11) Difference between abstraction and polymorphism ? 
+11) Difference between abstraction and polymorphism ? </br>
     https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/
-13) What is polymorphism? 
+13) What is polymorphism ? </br> 
     Function Overloading. 2 ways: one by changing number of arguments, one by changing datatype. Polymorphism helps in reducing the complexity and length of code.
-14) What is data hiding?
+14) What is data hiding ? </br>
     Class2 is child of class1 then class2 can use public and protected member variables. If class2 is not child of class1 then class2 can only use public member variables
      like in main class we can't use protected or private member variables. With this approach, we can hide our data. This is called data hiding.
-15) What is constructor?
+15) What is constructor ? </br>
     Constructor is having same name as class and they don't return anything. A a_obj(28); // initialise data
 21) Need for constructor: programmers may forgot to initialise data members in object. When there are many objects, then we need to call set data for each object.
 22) When constructor is called, it first allocates memory to data members and then initialise it.
