@@ -53,59 +53,66 @@
      In post increment overloading we write "int" word in arguments to differentiate it with pre increment operator overloading.
 21)  What is inheritance ? </br>
      Inheritance is acquiring properties of another class. Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
-24)  What happens if we we execute " derived d" and the derived class has no constructor ? </br>
+22)  What happens if we we execute " derived d" and the derived class has no constructor ? </br>
      If derived class has no constructor then it will call the constructor of base class (ONLY APPLICABLE FOR DEFAULT CONSTRUCTOR) 
-22)  What happens if we we execute " derived d(9)" and the derived class has no parameterised constructor ? </br>
+23)  What happens if we we execute " derived d(9)" and the derived class has no parameterised constructor ? </br>
      It will give error.
-23)  What happens if we call "derived d" and derived class has its default constructor ? </br>
+24)  What happens if we call "derived d" and derived class has its default constructor ? </br>
      when we call default constructor of derived class it first calls the base class default constructor and then default constructor of derived class.
-24)  What happens if we call "derived d(9)" and derived class has its parameterised constructor ? </br>
+25)  What happens if we call "derived d(9)" and derived class has its parameterised constructor ? </br>
      When we call parameterised constructor of derived class it first calls the base class default constructor (not parameterised constructor of base class) and then              parameterised constructor of derived class.
-25)  How can we call parameterised constructor of base class ? </br>
+26)  How can we call parameterised constructor of base class ? </br>
      derived(int d) : base(d)
-26)  What is Function overriding? </br>
+27)  What is Function overriding? </br>
      Derived class object would call the function of derived class if same function exists in both classes (i.e. base and derived class)
-27)  How can we call same function of base class through derived class object if derived class has same function already ? </br>
+28)  How can we call same function of base class through derived class object if derived class has same function already ? </br>
      If we write base::Msg() in derived class that has already a function named Msg() then it will call the base class Msg function.
-28)  What is isA relationship ? </br> 
+29)  What is isA relationship ? </br> 
      Inheritance
-29)  What is hasA relationship ? </br>
+30)  What is hasA relationship ? </br>
      It is implemented using objects, we create objects of class whose function we need to use.
-30)  What is the difference between isA and hasA relationship ? </br>
+31)  What is the difference between isA and hasA relationship ? </br>
      isA relationship is based on inheritance while hasA relationship is based on objects. </br>
      isA relationship expose all public data of base class but hasA relationship does not expose all data but it uses relevant data.
      isA relationship is static binding (compile time) while hasA relationship is dynamic binding (run time).
      isA relationship is used when we can inherit something while hasA relationship is used when we can't inherit most of the things.
-31)  What is public inheritance ? </br>
+32)  What is public inheritance ? </br>
      child and grandchild class would not be able to access private members but be able to access both protected and public members. </br>
      protected would be inherited as protected and public would be inherited as public in child and grandchild class.
-32)  What is protected inheritance ? </br>
+33)  What is protected inheritance ? </br>
      (class derived : protected base) </br>
      protected and public in parent class would be inherited as protected in child and grandchild class.
-52)  Base class pointer and derived class object: Base * ptr = NULL; ptr = new Derived();  The pointer is of base class but object is of derived class but it will not throw any error as base class is compatible with derived class.
-53)  If we treat base class as car and derived class as advanced car, then we are saying that we are sitting in a normal car pointing towards a ferrari and saying that our car is also ferrari. We can't access the member functions of derived class with base class pointer.
-54)  Virtual function is a function existing in class that can't be used.
-55)  Virtual functiom : Program that appears to be calling function of one class but in reality maybe calling function of different class.
-56)  By making base class function virtual as mentioned in pics, we can tell compiler that show() is my derived class function not base class func.
-57)  Late binding/ Dynamic binding: Compiler defer the decision until the program is running. And at runtime when it comes to know which class is pointed by ptr, then appropriate function will be called.
-58)  When we place virtual word in front of a function in base class then it becomes a virtual function.
-59)  Abstract class is used when we never want to instantiate object of BASE class.
-60)  When we say (virtual returntype funcname() = 0;) then it becomes a pure virtual function and if a pure virtual function exists in a class then it becomes an abstract class
-61)  Abstract class exists only to "ACT" as parent of derived class. It itself has no functionalities.
-62)  pure virtual function does not have a body.
-63)  Destructors are used to deallocate memory.
-64)  They are used to clean up the class objects and class members.
-65)  They are called when the object is out of scope or we are explicitly deleting the object.
-66)  When we create pointer of base class and object of derived class (base * b = new derived;) then only base class functionalities can be accessed.
-67)  delete b then only base class constructor is called so whole object is not destroyed.
-68)  But if we create our deconstructor as virtual ~base() { }  (appending virtual in front) then deconstructor of both base and derived class is called and whole object is destroyed.
-69)  When a function is outside the class then it can access only public variables but if we make it friend function then it can access all 3.
-70)  friend returntype funcname();
-71)  Friend classes can use and access the features and functionalities of each other.
-72)  Friend class can access private data members of other class. Let's say in class A we write friend class B then through class B we can access functionalities of class A.
-73)  Each object will create separate space in memory.
-74)  Static member would be allocated memory only once and the memory is shared by all objects of class.
-75)  Static data members belong to a class and it is common to all objects.
-76)  we need to write static int stat in class to define it and then outside class write int classname :: stat = 0;  (type of global declaration)
-77)  We can print static variable using class or object like objectname.stat or classname::stat
-78)  static member function is a special function which can only access static member variable
+34)  What happens when we create base class pointer and set it with derived class object like base * ptr; ptr = new Derived(); ? </br>
+     The pointer is of base class but object is of derived class but it will not throw any error as base class is compatible with derived class. If we treat base class as car      and derived class as advanced car like ferrari, then we are saying that we are sitting in a normal car pointing towards a ferrari and saying that our car is also              ferrari. We can't access the member functions of derived class with base class pointer.
+35)  What is virtual function ? </br>
+     It is a function existing in class that can't be used. Program that appears to be calling function of one class but in reality maybe calling function of different class.
+     By making base class function virtual by appending "virtual" word in function we can tell compiler that show() is my derived class function not base class function.
+36)  What is Late binding/ Dynamic binding ? </br>
+     Compiler defer the decision until the program is running. And at runtime when it comes to know which class is pointed by ptr, then appropriate function will be called.
+37)  What is abstract class ? </br>
+     Abstract class is used when we never want to instantiate object of BASE class. </br>
+     When we do (virtual returntype funcname() = 0;) then it becomes a pure virtual function and if a pure virtual function exists in a class then it becomes an abstract          class. Pure virtual function does not have a body. </br>
+     Abstract class exists only to "ACT" as parent of derived class. It itself has no functionalities. 
+38)  What are Destructors ? </br>
+     They are used to deallocate memory. </br>
+     They are used to clean up the class objects and class members. </br>
+     They are called when the object is out of scope or we are explicitly deleting the object.
+39)  How to destroy whole object using base class pointer and derived class object ? </br>
+     When we create pointer of base class and object of derived class (base * b = new derived;) then only base class functionalities can be accessed. </br>
+     delete b then only base class deconstructor is called so whole object is not destroyed. </br>
+     But if we create our deconstructor as virtual ~base() { } (appending virtual in front) then deconstructor of both base and derived class is called and whole object is        destroyed.
+40)  What is friend function ? </br>
+     When a function is outside the class then it can access only public variables but if we make it friend function then it can access all 3. </br>
+41)  Syntax of friend function ? </br> 
+     friend returntype funcname();
+42)  What is friend class ? </br>
+     Friend classes can use and access the features and functionalities of each other. </br>
+     Friend class can access private data members of other class. Let's say in class A we write friend class B; then through class B we can access functionalities of class A.
+43)  What are static member variable ? </br>
+     Each object will create separate space in memory </br>
+     Static member would be allocated memory only once and the memory is shared by all objects of class </br>
+     Static data members belong to a class and it is common to all objects. </br>
+     We need to write "static int stat;" in class to define it and then outside class write "int classname :: stat = 0;"  (type of global declaration) </br>
+     We can print static variable using class or object like objectname.stat or classname::stat
+44)  What is static member function ? </br>
+     Static member function is a special function which can only access static member variable
