@@ -80,6 +80,7 @@
      isA relationship is static binding (compile time) while hasA relationship is dynamic binding (run time).
      isA relationship is used when we can inherit something while hasA relationship is used when we can't inherit most of the things.
 32)  What is public inheritance ? </br>
+     Default inheritance is private. </br>
      child and grandchild class would not be able to access private members but be able to access both protected and public members. </br>
      protected would be inherited as protected and public would be inherited as public in child and grandchild class.
 33)  What is protected inheritance ? </br>
