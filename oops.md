@@ -59,3 +59,10 @@
 59)  When we say (virtual returntype funcname() = 0;) then it becomes a pure virtual function and if a pure virtual function exists in a class then it becomes an abstract class
 60)  Abstract class exists only to "ACT" as parent of derived class. It itself has no functionalities.
 61)  pure virtual function does not have a body.
+62)  Destructors are used to deallocate memory.
+63)  They are used to clean up the class objects and class members.
+64)  They are called when the object is out of scope or we are explicitly deleting the object.
+65)  When we create pointer of base class and object of derived class (base * b = new derived;) then only base class functionalities can be accessed.
+66)  delete b then only base class constructor is called so whole object is not destroyed.
+67)  But if we create our deconstructor as virtual ~base() { }  (appending virtual in front) then deconstructor of both base and derived class is called and whole object is destroyed.
+68)  
