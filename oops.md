@@ -33,11 +33,12 @@
     When constructor is called, it first allocates memory to data members and then initialise it.
 18) Tyeps of constructor ? </br>
     Non-parameterised constructor/default constructor: that does not take any argument. data member set with default value so do not need to pass arguments. If you don't         create a constructor then default constructor will work and set the data members with garbage value.
-    Parameterised constructor: that takes some arguments.
-    Copy constructor: They are used to create new objects from existing objects. A a_obj2(a_obj1)
-    A(A &a_obj1) {
-        age = a_obj1.age; 
-    }
+    Parameterised constructor: that takes some arguments. </br>
+    Copy constructor: They are used to create new objects from existing objects. 
+    A a_obj2(a_obj1); </br>
+    A(A &a_obj1) {    </br>
+        age = a_obj1.age;  </br>
+    }  </br>
 28)  Overloaded constructor: overload parameterised and non-parameterised constructor. A(int x = 0) { age = x;} default value set in parameter only.
 29)  We can declare a function in class and its definition outside the class as returntype classname::func(arguments){ } where :: is scope resolution.
 30)  Operator overloading: when we make operators like +,-,/,* work for user defined datatypes likes objects and structures.
