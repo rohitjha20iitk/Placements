@@ -53,7 +53,7 @@
 20)  How can we differentiate overloading of pre and post increment ? </br>
      In post increment overloading we write "int" word in arguments to differentiate it with pre increment operator overloading.
 21)  What is inheritance ? </br>
-     Inheritance is acquiring properties of another class. Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
+     Inheritance is acquiring properties of another class. Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code. It is        used to achieve runtime polymorphism.
 22)  What happens if we we execute " derived d" and the derived class has no constructor ? </br>
      If derived class has no constructor then it will call the constructor of base class (ONLY APPLICABLE FOR DEFAULT CONSTRUCTOR) 
 23)  What happens if we we execute " derived d(9)" and the derived class has no parameterised constructor ? </br>
