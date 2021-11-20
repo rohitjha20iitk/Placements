@@ -1,15 +1,11 @@
 1) What is Procedural programming ? </br>
    It is a list of instructions in a single block and suitable only for small programs.
-
 2) What is Modular programming ? </br>
    Modular program is divided into functions and each function has a clear purpose. The limitation is that it is difficult to relate it with real world problems. As modular      programming needs more of our data to be global so that it can be accessed across the program but it has its own limitations. It will create a mesh which is difficult to      modify. The reason for such a mess is that the data and functions are separate. So, we need to bind our data and functions that's what we do in object oriented approach by    creating class.
-   
 3) Do class takes any space ? </br>
    Class does not occupy any space but object does. Class is just a blueprint.
-   
 4) What is encapsulation ? </br>
    The process of combining member variables and member functions is called encapsulation.
- 
 5) How we call member variables and member functions of a class ? </br>
    house h1;   ----------->  // this is how we create an object of a class </br>
    h1.len;     ----------->  // this is how we can access member variable of a class </br>
