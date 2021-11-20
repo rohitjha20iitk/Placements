@@ -124,3 +124,4 @@
      We can print static variable using class or object like objectname.stat or classname::stat
 44)  What is static member function ? </br>
      Static member function is a special function which can only access static member variable
+45)  C++ supports 5 types of inheritance : Single, Multiple, Hierarchical, Multilevel, Hybrid 
