@@ -15,6 +15,7 @@
 7) What happens when we create an object ? </br>
    Any entity that has state and behavior is known as an object. </br>
    Here, state means data and behavior means functionality. </br>
+   Object is a runtime entity, it is created at runtime. </br>
    Whenever we create an object member variables will get fresh or new space each time while member functions are shared between them.
 8) What is encapsulation ? </br>
    The process of combining member variables and member functions is called encapsulation. Encapsulation is wraping up variables and methods in class. It helps in data hiding    with the help of access specifiers. Security of data is possible in this way.
