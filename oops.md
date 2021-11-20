@@ -67,4 +67,11 @@
 67)  But if we create our deconstructor as virtual ~base() { }  (appending virtual in front) then deconstructor of both base and derived class is called and whole object is destroyed.
 68)  When a function is outside the class then it can access only public variables but if we make it friend function then it can access all 3.
 69)  friend returntype funcname();
-70)  
+70)  Friend classes can use and access the features and functionalities of each other.
+71)  Friend class can access private data members of other class. Let's say in class A we write friend class B then through class B we can access functionalities of class A.
+72)  Each object will create separate space in memory.
+73)  Static member would be allocated memory only once and the memory is shared by all objects of class.
+74)  Static data members belong to a class and it is common to all objects.
+75)  we need to write static int stat in class to define it and then outside class write int classname :: stat = 0;  (type of global declaration)
+76)  We can print static variable using class or object like objectname.stat or classname::stat
+77)  static member function is a special function which can only access static member variable
