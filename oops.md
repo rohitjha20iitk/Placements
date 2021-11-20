@@ -65,4 +65,6 @@
 65)  When we create pointer of base class and object of derived class (base * b = new derived;) then only base class functionalities can be accessed.
 66)  delete b then only base class constructor is called so whole object is not destroyed.
 67)  But if we create our deconstructor as virtual ~base() { }  (appending virtual in front) then deconstructor of both base and derived class is called and whole object is destroyed.
-68)  
+68)  When a function is outside the class then it can access only public variables but if we make it friend function then it can access all 3.
+69)  friend returntype funcname();
+70)  
