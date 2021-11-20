@@ -11,9 +11,9 @@
    The process of combining member variables and member functions is called encapsulation.
  
 5) How we call member variables and member functions of a class ? </br>
-   house h1;     // this is how we create an object of a class </br>
-   h1.len;       // this is how we can access member variable of a class </br>
-   h1.area();    // this is how we can access member functions of a class </br>
+   house h1;   &nbsp  // this is how we create an object of a class </br>
+   h1.len;     &nbsp  // this is how we can access member variable of a class </br>
+   h1.area();  &nbsp  // this is how we can access member functions of a class </br>
    
 9) By default, access specifier is private. Private means member variables and member functions can be used within the class only.
 10) Make member variables as private so that it can't be accessed outside class making it safe and make your member functions as public.
