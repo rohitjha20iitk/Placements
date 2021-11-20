@@ -34,35 +34,55 @@
 18) Tyeps of constructor ? </br>
     Non-parameterised constructor/default constructor: that does not take any argument. data member set with default value so do not need to pass arguments. If you don't         create a constructor then default constructor will work and set the data members with garbage value.
     Parameterised constructor: that takes some arguments. </br>
-    Copy constructor: They are used to create new objects from existing objects. 
+    Copy constructor: They are used to create new objects from existing objects. </br>
     A a_obj2(a_obj1); </br>
     A(A &a_obj1) {    </br>
         age = a_obj1.age;  </br>
     }  </br>
-28)  Overloaded constructor: overload parameterised and non-parameterised constructor. A(int x = 0) { age = x;} default value set in parameter only.
-29)  We can declare a function in class and its definition outside the class as returntype classname::func(arguments){ } where :: is scope resolution.
-30)  Operator overloading: when we make operators like +,-,/,* work for user defined datatypes likes objects and structures.
-31)  Operator overloading in details in picture(ss)
-32)  How can we differentiate overloading of pre and post increment in post increment overloading we write int in arguments to differentiate it with pre increment overloading.
-33)  Base class is parent class and derived class is child class.
-34)  Inheritance is acquiring properties of another class.
-35)  Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
-36)  if derived class has no constructor then it will call the constructor of base class (ONLY APPLICABLE FOR DEFAULT CONSTRUCTOR) 
-37)  parameterised constructor will give error.
-38)  when we call default constructor of derived class it first calls the base class default constructor and then default constructor of derived class.
-39)  when we call parameterised constructor of derived class it first calls the base class default constructor (not parameterised constructor of base class) and then parameterised constructor of derived class.
-40)  There is a different way to call parameterised constructor of base class (in photo)
-41)  Function overriding: derived class object would call the function of derived class if same function exists in both classes(i.e. base and derived class)
-42)  if we write base::Msg() in derived class that has already a function named Msg() then it will call the base class Msg function. In this way we can call Msg function of base class.
-43)  isA relationship = Inheritance
-44)  hasA relationship = implemented using objects we create objects of class whose function we need to use.
-45)  isA relationship is based on inheritance while hasA relationship is based on objects.
-46)  isA relationship expose all public data of base classes but hasA relationship does not expose all data but it uses relevant data.
-47)  isA relationship is static binding(compile time) while hasA relationship is dynamic binding (run time).
-48)  isA relationship is used when we can inherit something while hasA relationship is used when we can't inherit most of the things.
-49)  child and grandchild class would not be able to access both private bur be able to access both protected and public.
-50)  protected would be inherited as protected and public would be inherited as public in child and grandchild class.
-51)  protected inheritance (class derived : protected base) protected and public in parent class would be inherited as protected in child and grandchild class.
+19)  What is Overloaded constructor ? </br>
+     overload parameterised and non-parameterised constructor. </br>
+     A(int x = 0) {  // default value set in parameter only </br>
+        age = x; </br>
+     } </br>
+     
+20)  How can we create function outside the class ? </br> 
+     We can declare a function in class and its definition outside the class as </br>
+     returntype classname::func(arguments) { } where :: is scope resolution. </br>
+21)  What is Operator overloading ? </br> 
+     When we make operators like +,-,/,* work for user defined datatypes likes objects and structures.
+22)  How can we differentiate overloading of pre and post increment ? </br>
+     In post increment overloading we write "int" word in arguments to differentiate it with pre increment operator overloading.
+23)  What is inheritance ? </br>
+     Inheritance is acquiring properties of another class. Inheritance reduces duplicate code, increases code reusability and it helps in better organisation of code.
+24)  What happens if we we execute " derived d" and the derived class has no constructor ? </br>
+     If derived class has no constructor then it will call the constructor of base class (ONLY APPLICABLE FOR DEFAULT CONSTRUCTOR) 
+25)  What happens if we we execute " derived d(9)" and the derived class has no parameterised constructor ? </br>
+     It will give error.
+26)  What happens if we call "derived d" and derived class has its default constructor ? </br>
+     when we call default constructor of derived class it first calls the base class default constructor and then default constructor of derived class.
+27)  What happens if we call "derived d(9)" and derived class has its parameterised constructor ? </br>
+     When we call parameterised constructor of derived class it first calls the base class default constructor (not parameterised constructor of base class) and then              parameterised constructor of derived class.
+28)  How can we call parameterised constructor of base class ? </br>
+     derived(int d) : base(d)
+29)  What is Function overriding? </br>
+     Derived class object would call the function of derived class if same function exists in both classes (i.e. base and derived class)
+30)  How can we call same function of base class through derived class object if derived class has same function already ? </br>
+     If we write base::Msg() in derived class that has already a function named Msg() then it will call the base class Msg function.
+31)  What is isA relationship ? </br> 
+     Inheritance
+32)  What is hasA relationship > </br>
+     It is implemented using objects, we create objects of class whose function we need to use.
+33)  What is the difference between isA and hasA relationship ? </br>
+     isA relationship is based on inheritance while hasA relationship is based on objects. </br>
+     isA relationship expose all public data of base class but hasA relationship does not expose all data but it uses relevant data.
+     isA relationship is static binding (compile time) while hasA relationship is dynamic binding (run time).
+     isA relationship is used when we can inherit something while hasA relationship is used when we can't inherit most of the things.
+34)  What is public inheritance ? </br>
+     child and grandchild class would not be able to access private members but be able to access both protected and public members. </br>
+     protected would be inherited as protected and public would be inherited as public in child and grandchild class.
+35)  What is protected inheritance ? </br>
+     (class derived : protected base) </br>
+     protected and public in parent class would be inherited as protected in child and grandchild class.
 52)  Base class pointer and derived class object: Base * ptr = NULL; ptr = new Derived();  The pointer is of base class but object is of derived class but it will not throw any error as base class is compatible with derived class.
 53)  If we treat base class as car and derived class as advanced car, then we are saying that we are sitting in a normal car pointing towards a ferrari and saying that our car is also ferrari. We can't access the member functions of derived class with base class pointer.
 54)  Virtual function is a function existing in class that can't be used.
