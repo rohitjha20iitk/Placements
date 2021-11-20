@@ -14,6 +14,7 @@
    By default, access specifier is private. Private means member variables and member functions can be used within the class only. Make member variables as private so that it    can't be accessed outside class making it safe and make your member functions as public so that your class function can be accessed from outside and the function can          access member variables.
 7) What happens when we create an object ? </br>
    Any entity that has state and behavior is known as an object. </br>
+   Here, state means data and behavior means functionality. </br>
    Whenever we create an object member variables will get fresh or new space each time while member functions are shared between them.
 8) What is encapsulation ? </br>
    The process of combining member variables and member functions is called encapsulation. Encapsulation is wraping up variables and methods in class. It helps in data hiding    with the help of access specifiers. Security of data is possible in this way.
