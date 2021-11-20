@@ -109,6 +109,8 @@
      But if we create our deconstructor as virtual ~base() { } (appending virtual in front) then deconstructor of both base and derived class is called and whole object is        destroyed.
 40)  What is friend function ? </br>
      When a function is outside the class then it can access only public variables but if we make it friend function then it can access all 3. </br>
+     It can be declared either in the private or the public part.</br>
+     It cannot be called using the object as it is not in the scope of that class.
 41)  Syntax of friend function ? </br> 
      friend returntype funcname();
 42)  What is friend class ? </br>
