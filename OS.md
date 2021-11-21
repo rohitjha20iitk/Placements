@@ -180,3 +180,17 @@
         v) Enhanced throughput of system: As process divided into multiple threads and each thread is a job.
         vi) Economical
 117) User level and kernel level threads: 
+        i) User level threads are implemented by user but kernel level threads are implemented by OS
+        ii) Os can't recognise user level threads as for OS user level threads are just process but kernel level threads are recognised by OS.
+        iii) If one user level thread is performing blocking system call then entire process will go into block state but this is not the case with kernel level threads.
+        iv) User level threads are dependent but kernel level threads are not.
+        v) Implementation of user level threads is easy but complicated for kernel level threads.
+        vi) User level threads have less context while kernel level threads have more.
+        vii) No H/W level support is required for user level threads.
+118) "GANG" scheduling is used in threads.
+119) Synchronous I/O : The process performing I/O operation will be placed in block state till I/O operation is completed. Once I/O operation is completed, ISR (INTERRUPT SERVICE ROUTINE) will initiate and brings process from block to ready state.
+120) Asynchronous I/O: While initiating I/O request, the handler function will be registered. The process is not placed in block state and it continues to execute the reamining code after initiating I/O request. Once I/O operation is completed, the signal mechanism is used to notify the process that data is available and registered handler function will be asynchronously invoked.
+121) OS allocates and deallocates memory to the process. Main goal is to efficiently utilise memory by minimising internal and external fragmentation.
+122) Capacity of memory = no. of words in memory * word size
+123) Loading : Bringing process from secondary memory to main memory is called as loading.
+124) Linking : Establishing the linking between all modules or all the functions of program in order to continue program execution.
