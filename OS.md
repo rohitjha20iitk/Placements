@@ -194,3 +194,24 @@
 122) Capacity of memory = no. of words in memory * word size
 123) Loading : Bringing process from secondary memory to main memory is called as loading.
 124) Linking : Establishing the linking between all modules or all the functions of program in order to continue program execution.
+125) Static loading : Loading entire program in memory before start of program execution is called as static loading.
+126) Static loading : inefficient use of memory, program execution will be faster, if static loading then always static linking.
+127) Dynamic loading: loading the program into memory on demand is called dynamic loading.
+128) Dynamic loading : efficient use of memory, program execution will be slower, if dynamic loading then always dynamic linking.
+129) Addess binding: Association of program instructions and data to the actual physical memory loactions is called as address binding.
+130) Compiler time Address Binding : compiler is responsible for compile time AB. This type of AB will be done before loading the program in memory. The compiler needs to interact with OS memory manager to perform compile time AB.
+131) Load time AB : This type of AB will be done after loading the program in memory. The load time address binding will be done by OS memory mananger(loader)
+132) Execution time or Dynamic AB: The AB will be postponed even after loading the program in memory. The program will keep on changing loactions in memory till time of program execution. This type of address binding will be done by processor at the time of program execution.
+133) Majority of OS perform dynamic loading, linking, address binding.
+134) Fixed partition scheme : memory will be divided into fixed partitions, in every partition, only 1 process will be allocated. Degree of multiprogramming is restricted by no. of partitions in memory. Maximum size of process is restricted by max size of partition. Every partition is associated with limit registers (lower limit (starting address of partition), upper limit (ending address of partition))
+135) Variable partition scheme : initially, memory will be single continous free block. whenever process comes, partition will be made in memory.
+136) External fragmentation happens when there’s a sufficient quantity of area within the memory to satisfy the memory request of a method. however the process’s memory request cannot be fulfilled because the memory offered is during a non-contiguous manner.
+137) Techniques used to avoid external fragmentation: 
+       i) compaction : moving all processes to top or bottom  to make free available memory in single continuous place. undesirable to implement because it affects all                              running process in memory.
+       ii) implementing non contiguous memory management techniques : best fit, first fit, next fit, worst fit
+           a) best fit - smallest sufficient
+           b) worst fit - largest sufficient
+           c) first fit - first sufficient
+           d) next fit - first sufficient from last allocation point
+ 138) 
+       ii) 
