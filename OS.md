@@ -240,4 +240,4 @@
 158) EMAT = x(c + m) + (1 - x)(c + 2m)  where x = TLB hit ratio and c = TLB access time.
 159) To avoid the overhead of maintaining large size page table in main memory, MULTILEVEL PAGING is implemented.
 160) In MULTILEVEL PAGING, paging will be applied on page table and instead of bringing entire Page table into memory, the pages of page table will be brought in memory.
-161)  
+161) EMAT for n-level paging : x(c + m) + (1 - x)(c + (n + 1) * m)
