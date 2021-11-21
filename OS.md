@@ -171,4 +171,12 @@
         II) Resource preemption:
               Resoucre preempted from process which are involved in deadlock and given to other processes so that there is a chance of recovery. But it can lead to starvation
         III) Ostrich Algo : Ignore deadlock
-115) 
+115) Thread is light weight process (no. of instruction will be less and context will be less)
+116) Advantages : 
+        i) Responsiveness : process divided into threads then if one thread completes the excecution, then output will be responded immediately. Response faster than process.
+        ii) Faster context switches : due to less context.
+        iii) Effective utilisation of multiprocessor systems: Threads running on different processor so that process execution will be faster.
+        iv) Resource sharing: Resources except stacks and registers are shared. Resources like code, data, files, global variables,heap and memory will be shared. Every                                     thread will have its own stacks and registers.
+        v) Enhanced throughput of system: As process divided into multiple threads and each thread is a job.
+        vi) Economical
+117) User level and kernel level threads: 
