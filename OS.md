@@ -141,4 +141,34 @@
 96) monitor is collection of variables, condition variables and procedures combined together in a special kind of module or package.
 97) The process running outside the monitor can't access the internal varables of the monitor but they can call the procedures of montor.
 98) Only one process can be active inside monitor at any time.
-99) 
+99) Concurrent programming: possible only on multiprocessor systems.
+100) Concurrent has 3 different meanings: they can execute concurrently or parallely, they do not have any dependency, anyone can start first.
+101) 2 or more processes waiting for some event to happen and that never happens then they are said to be in deadlock.
+102) Resource Allocation Graph : Resource request and resource allocation will be presented using RAG.
+103) Deadlock characteristics: Mutual Exclusion, Hold and wait, No preemption, Circular Wait.
+104) Mutual Exclusion : The resource has to be allocated to only 1 process or it should be freely available.
+105) No preemption: The resource has to be voluntarily released by the process after completion of execution. Not allowed tro forcefully preempt the resource
+106) If all 4 cnditions are there then it is deadlock.
+107) Deadlock prevention: 
+      i) Eliminate Mutual exclusion : It is not always possible to dissatisfy the mutual exclusion because some resources, such as the tape drive and printer, are non-                                             shareable.
+      ii) Eliminate Hold and wait : Allocate all required resources to the process before the start of its execution, this way hold and wait condition is eliminated but it                                       will lead to low device utilization. 
+                                    The process will make a new request for resources after releasing the current set of resources. This solution may lead to starvation.
+      iii) Eliminate no preemption : Preempt resources from the process when resources required by other high priority processes. 
+      iv) Eliminate circular wait : Resources will be assigned with unique numbers. The process can request for resources only in increasing or decreasing order of numbering.
+108) Deadlock avoidance : Banker's Algorithm 
+109) If the system is in unsafe state, then it is possible for deadlock.
+110) The order in which we satisfy the remaining needs of processes is called safe sequence.
+111) Deadlock avoidance is less restrictive than deadlock prevention. As in Deadlock prevention, request for a resource may not be granted even if the resulting state is safe but in deadlock avoidance, request for a resource is granted if the resulting state is safe.
+112) Deadlock detection: If all resources are of single instance type then cycle in RAG is sufficient and necessary condition for deadlock.
+113) If all resources are NOT of single instance type then cycle in RAG is necessary condition for deadlock NOT SUFFICIENT.
+114) Deadlock recovery:
+        I) kill process
+            i) kill all processes involved in deadlock.
+            ii) kill one after other
+                a) kill low priority first
+                b) kill on basis of percentage completion
+                c) based on resources holding and requesting by processes
+        II) Resource preemption:
+              Resoucre preempted from process which are involved in deadlock and given to other processes so that there is a chance of recovery. But it can lead to starvation
+        III) Ostrich Algo : Ignore deadlock
+115) 
