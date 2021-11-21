@@ -213,5 +213,31 @@
            b) worst fit - largest sufficient
            c) first fit - first sufficient
            d) next fit - first sufficient from last allocation point
- 138) 
-       ii) 
+138) Paging: The technique of mapping CPU generated logical address to physical address is called as paging.
+139) Logical Address space is divided into equal size pages.
+140) Physical address space is divided into equal size frames.
+141) Page size = frame size
+142) Whenever paging is applied page table has to be maintained.
+143) No. of entries in page table is same as no. of pages in LAS.
+144) Page table entry (PTE) contains frame number.
+145) Page tavle is also called as address transalation table.
+146) Frame number is also called as translation bits.
+147) LA is divided into 2 parts p and d where p = no. of bits required to represent pages of LAS or page number and d = no. of bits required to represent page size.
+148) PA is divided into 2 parts f and d where f = no. of bits required to represent frames of PAS or frame number and d = no. of bits required to represent frame size.
+149) Paging is wrt every process and every process will have it's own page table and the base address of page table is stored in PCB.
+150) Page tables of processes will be store in main memory.
+151) NO external fragmentation in paging.
+152) Internal fragmentation in last page i.e equal to p/2 where p = page size
+153) Maintaining page table is overhead for system.
+154) PTE contains frame number (transalation bits) but along with it sometimes it may contain additional bits like 
+        i) valid/invalid bit or present bit (page available in main memory or not)
+        ii) dity or modified bit   (page modified by processor or not)
+        iii) reference bit  (how many times page is referred by processor)
+        iv) page protection or permission bits  (used for protection and security from unauthorised access)
+155) Page table size = no. of entries in page table * PTE size
+156) Performance of paging: Main memory access time = 'm'. page tables stored in main memory. EMAT = 2m
+157) TLB (Translation look aside buffer is added to improve the performance of paging. TLB is H/W device implemented using associative registers. It contains frequently referred page numbers and corresponding frame numbers. TLB access time is very less.
+158) EMAT = x(c + m) + (1 - x)(c + 2m)  where x = TLB hit ratio and c = TLB access time.
+159) To avoid the overhead of maintaining large size page table in main memory, MULTILEVEL PAGING is implemented.
+160) In MULTILEVEL PAGING, paging will be applied on page table and instead of bringing entire Page table into memory, the pages of page table will be brought in memory.
+161)  
