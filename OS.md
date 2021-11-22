@@ -241,3 +241,37 @@
 159) To avoid the overhead of maintaining large size page table in main memory, MULTILEVEL PAGING is implemented.
 160) In MULTILEVEL PAGING, paging will be applied on page table and instead of bringing entire Page table into memory, the pages of page table will be brought in memory.
 161) EMAT for n-level paging : x(c + m) + (1 - x)(c + (n + 1) * m)
+162) In multilevel paging when paging is applied on page tables the last page table which we get is called as 1st level page table.
+163) In multilevel paging when paging is applied on page tables then 1st level page table entry contains base address of second level page table, the 2nd level PTE contains base address of 3rd level page table and so on. The final PTE contains frame number of actual page.
+164) In multilevel paging, all page tables are stored in main memory.
+165) To avoid overhead of maintaining page table for every process inverted paging will be implemented.
+166) In inverted paging, only 1 page table will be maintained for all processes.
+167) No. of entries in page table = No. of frames in PAS.
+168) Paging does not follow user's view of memory allocation.
+169) To achieve user's view of memory allocation, segmentation will be implemented.
+170) In segmentation, LAS will be divided into segments.
+171) Segments of LAS will vary in size and brought into PAS.
+172) No. of entries in segment table is same as no. of segments in LAS.
+173) Segmentation suffers from external fragmentation.
+174) To avoid the overhead of bringing large size segment into memory, segmented paging will be implemented.
+175) In segmented paging, paging will be applied on segment and instead of bringing entire segment in memory the pages of segment will be brought in memory.
+176) No. of entries in page table of segment is same as no. of pages on segment.
+177) Page size of segment is same as frame size of PAS.
+178) Buddy system: Initially memory is single continuous free block.
+179) Whenever request by process arrives memory will be divided into 2 half blocks.
+180) If request by process is too small then the lower block of memory is further divided into 2 half blocks again.
+181) In buddy system, memory will be allocated from lower to higher blocks.
+182) Virtual memory gives an illusion to the programmer, that the programs of larger size than actual physical memory can be executed.
+183) Virtual memory is implemented using demand paging and demand segmentation.
+184) Demand paging: Loading the page into memory on demand (whenever page fault occurs)
+185) Page fault: The CPU is trying to refer the page in main memory but the page is currently not available in the PAS.
+186) The program execution will stop and signal will be sent to OS regarding page fault.
+187) OS will search for required page in LAS.
+188) The required page will be brought from LAS to PAS through page replacement algo.
+189) The respective page table entry will be updated accordingly.
+190) Signal will be sent to CPU to continue program execution and CPU will access the required page in main memory and continue program execution.
+191) EMAT : p * s + (1 - p) * m  (p = page fault rate, s = PFST, m = MMAT)
+192) No. of frames allocated to the process is decided by ISA (Instruction Set Architecture)
+193) Belady's anomaly: In FIFO page replacement algo, by increasing no. of frames to the process the no. of page faults should decrease but they are increasing.
+194) Optimal page replacement : which is not used for longest duration of time in future.
+195) 
