@@ -274,4 +274,27 @@
 192) No. of frames allocated to the process is decided by ISA (Instruction Set Architecture)
 193) Belady's anomaly: In FIFO page replacement algo, by increasing no. of frames to the process the no. of page faults should decrease but they are increasing.
 194) Optimal page replacement : which is not used for longest duration of time in future.
-195) 
+195) Thrashing : Thrashing is when the page fault and swapping happens very frequently at a higher rate, and then the operating system has to spend more time swapping these pages. This state in the operating system is known as thrashing. Because of thrashing, the CPU utilization is going to be reduced or negligible.
+196) Causes of thrashing: 
+        i) High degree of multiprogramming
+        ii) Lack of frames (Main memory)
+197) Recovery of thrashing:
+        i) Don't allow the system to go into thrashing and instruct the LTS not to bring the processes into memory after point of lambda.
+        ii) If the system is already in thrashing then instruct the MTS to suspend some of the processes so that we can recover the system from thrashing.
+198) The main purpose of virtual memory is to increase degree of multiprogramming.
+199) If we remove virtual memory then efficient implementation of multiprogramming and multiuser is not possible.
+200) All attributes of file is called file context and they are stored in FCB.
+201) Access methods of file : Sequential and random access
+202) Disk space allocation methods: 
+       i) Contiguous allocation : Disk block allocated in continuous manner, every file is associated with 2 parameters a)starting disk block address b)size
+                                  Increasing file size may not be possible always, suffering from external fragmentation, internal fragmentation exists in last disk block of                                   file. Supports both sequential and random access.
+       ii) Linked/Non contiguous allocation: increasing file size always possible if disk block is available, NO external fragmentation, internal fragmentation in last disk                                                block of file, overhead of maintaining pointer in every disk block, if pointer lost then file will be truncated, supports only 
+                                             sequential access.
+       iii) Indexed Allocation: every file is associated with its own indexed node, indexed nodes contains all disk block addresses of file, disk blocks are allocated in non                                 contiguous manner, NO external fragmemtation, internal fragmentation in last disk block. if file size large then 1 disk block will not be 
+                                sufficient to contain all DBAs but file size small then its a wastage.
+       iv) UNIX I-Node implementation  -----> an extension of INode implementation. every file is associated with its own I-Node. Whenever the file is created depending on                                                 size of file, file will be stored in direct DBA, or maybe in single indirect DBA, or maybe in double indirect DBA.
+203) No. of DBA's one DB can contain = DB size / DBA
+204) If context switching is diabled then process is not allowed for preemption.
+205) In free list approach: some disk block are used just to store the free disk block addresses.
+206) In bit map approach every disk block will be mapped with 1 binary bit.
+207) Disk scheduling: To minimise average seek time of disk.
