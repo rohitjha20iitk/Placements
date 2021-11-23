@@ -20,3 +20,9 @@ Graph:
 17) https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path3544/1
 18) https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1
 19) https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1
+
+
+--------------------------------------------------------------------------------------------------------------------
+Linked List:
+
+1) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1 (RECURSIVE AND ITERATIVE)
