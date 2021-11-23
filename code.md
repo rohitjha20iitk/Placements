@@ -7,4 +7,5 @@ Graph:
 5) https://practice.geeksforgeeks.org/problems/topological-sort/1                                             (USING BFS AND DFS)
 6) https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1
 7) https://leetcode.com/problems/is-graph-bipartite/                                                          (USING BFS AND DFS)
-8) 
+8) https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+9) 
