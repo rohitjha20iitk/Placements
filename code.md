@@ -14,6 +14,7 @@ Graph:
 12) https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 13) https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 -----------------------------------------------------------------------------------------------------
-14) https://practice.geeksforgeeks.org/problems/alien-dictionary/1 (SAME AS TOPOSORT PLEASE CHECK ONCE)
-15) https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path3544/1
-16) https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1
+14) https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1 (SAME AS DIJKSTRA PLEASE CHECK ONCE)
+15) https://practice.geeksforgeeks.org/problems/alien-dictionary/1 (SAME AS TOPOSORT PLEASE CHECK ONCE)
+16) https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path3544/1
+17) https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1
