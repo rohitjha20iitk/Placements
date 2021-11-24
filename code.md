@@ -32,3 +32,5 @@ Linked List:
 5) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
 6) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
 7) https://leetcode.com/problems/add-two-numbers/
+8) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
+9) 
