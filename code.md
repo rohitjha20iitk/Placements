@@ -58,4 +58,5 @@ Strings:
 5) https://leetcode.com/problems/integer-to-roman/
 6) https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1
 7) https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
-8) 
+8) https://practice.geeksforgeeks.org/problems/anagram-1587115620/1
+9) 
