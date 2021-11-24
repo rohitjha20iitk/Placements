@@ -33,4 +33,5 @@ Linked List:
 6) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
 7) https://leetcode.com/problems/add-two-numbers/
 8) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
-9) 
+9) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+10) 
