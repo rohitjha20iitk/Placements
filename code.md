@@ -56,4 +56,5 @@ Strings:
 3) https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
 4) https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1
 5) https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1
-6) 
+6) https://practice.geeksforgeeks.org/problems/implement-strstr/1 (LEARN Z ALGORITHM)
+7) 
