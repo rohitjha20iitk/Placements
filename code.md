@@ -53,8 +53,9 @@ Strings:
 
 1) https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string3411/1 (IMPORTANT)
 2) https://practice.geeksforgeeks.org/problems/implement-atoi/1 (IMPORTANT)
-3) https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
+3) https://practice.geeksforgeeks.org/problems/implement-strstr/1 (LEARN Z ALGO, RABIN KARP ALGO, KMP ALGO)
 4) https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1
-5) https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1
-6) https://practice.geeksforgeeks.org/problems/implement-strstr/1 (LEARN Z ALGO, RABIN KARP ALGO, KMP ALGO)
-7) 
+5) https://leetcode.com/problems/integer-to-roman/
+6) https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1
+7) https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
+8) 
