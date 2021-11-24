@@ -13,7 +13,6 @@ Graph:
 11) https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1
 12) https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 13) https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
------------------------------------------------------------------------------------------------------
 14) https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1 (SAME AS DIJKSTRA PLEASE CHECK ONCE)
 15) https://practice.geeksforgeeks.org/problems/alien-dictionary/1 (SAME AS TOPOSORT PLEASE CHECK ONCE)
 16) https://practice.geeksforgeeks.org/problems/minimum-swaps/1 (IMPORTANT)
@@ -40,8 +39,4 @@ Linked List:
 13) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
 14) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
 15) https://leetcode.com/problems/linked-list-cycle-ii/
-
-
-----------------------------------------------------------------------------------------------------------------
-
 16) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
