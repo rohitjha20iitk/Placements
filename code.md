@@ -45,3 +45,15 @@ Linked List:
 19) https://leetcode.com/problems/linked-list-cycle-ii/
 20) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
 21) https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
+
+
+
+-------------------------------------------------------------------------------------------------------------
+Strings:
+
+1) https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string3411/1 (IMPORTANT)
+2) https://practice.geeksforgeeks.org/problems/implement-atoi/1 (IMPORTANT)
+3) https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
+4) https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1
+5) https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1
+6) 
