@@ -37,6 +37,11 @@ Linked List:
 10) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
 11) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
 12) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
-13) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
-14) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+13) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+14) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
 15) https://leetcode.com/problems/linked-list-cycle-ii/
+
+
+----------------------------------------------------------------------------------------------------------------
+
+16) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
