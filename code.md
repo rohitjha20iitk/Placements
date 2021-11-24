@@ -40,3 +40,4 @@ Linked List:
 14) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
 15) https://leetcode.com/problems/linked-list-cycle-ii/
 16) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
+17) https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
