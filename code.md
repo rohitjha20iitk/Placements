@@ -25,13 +25,14 @@ Graph:
 --------------------------------------------------------------------------------------------------------------------
 Linked List:
 
-1) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1 (RECURSIVE AND ITERATIVE)
-2) https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
-3) https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
-4) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
-5) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
-6) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
-7) https://leetcode.com/problems/add-two-numbers/
-8) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
-9) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
-10) 
+1) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1 (IMPORTANT)
+2) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1 (RECURSIVE AND ITERATIVE)
+3) https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+4) https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
+5) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
+6) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
+7) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
+8) https://leetcode.com/problems/add-two-numbers/
+9) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
+10) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+11) 
