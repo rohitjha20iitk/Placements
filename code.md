@@ -24,23 +24,24 @@ Graph:
 --------------------------------------------------------------------------------------------------------------------
 Linked List:
 
-1) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1 (IMPORTANT)
-2) https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1 (IMPORTANT)
-3) https://leetcode.com/problems/rotate-list/ (IMPORTANT)
-4) https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1 (IMPORTANT)
-5) https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1 (IMPORTANT)
-6) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1 (RECURSIVE AND ITERATIVE)
-7) https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1 (IMPORTANT)
-8) https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1 (IMPORTANT)
-9) https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1 (IMPORTANT)
-10) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1 
-11) https://leetcode.com/problems/add-two-numbers/
-12) https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
-13) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
-14) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
-15) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
-16) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
-17) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
-18) https://leetcode.com/problems/linked-list-cycle-ii/
-19) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
-20) https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
+1) https://leetcode.com/problems/copy-list-with-random-pointer/ (VERY VERY IMPORTANT with 2 methods)
+2) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1 (IMPORTANT)
+3) https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1 (IMPORTANT)
+4) https://leetcode.com/problems/rotate-list/ (IMPORTANT)
+5) https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1 (IMPORTANT)
+6) https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1 (IMPORTANT)
+7) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1 (RECURSIVE AND ITERATIVE)
+8) https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1 (IMPORTANT)
+9) https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1 (IMPORTANT)
+10) https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1 (IMPORTANT)
+11) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1 
+12) https://leetcode.com/problems/add-two-numbers/
+13) https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
+14) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
+15) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
+16) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
+17) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+18) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+19) https://leetcode.com/problems/linked-list-cycle-ii/
+20) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
+21) https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
