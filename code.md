@@ -31,14 +31,15 @@ Linked List:
 5) https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1 (IMPORTANT)
 6) https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1 (RECURSIVE AND ITERATIVE)
 7) https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1 (IMPORTANT)
-8) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1 
-9) https://leetcode.com/problems/add-two-numbers/
-10) https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
-11) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
-12) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
-13) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
-14) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
-15) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
-16) https://leetcode.com/problems/linked-list-cycle-ii/
-17) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
-18) https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
+8) https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1 (IMPORTANT)
+9) https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1 
+10) https://leetcode.com/problems/add-two-numbers/
+11) https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
+12) https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1
+13) https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
+14) https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1/
+15) https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+16) https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+17) https://leetcode.com/problems/linked-list-cycle-ii/
+18) https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1 (IMPORTANT)
+19) https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
