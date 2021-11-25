@@ -60,4 +60,4 @@ Strings:
 7) https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1
 8) https://practice.geeksforgeeks.org/problems/anagram-1587115620/1
 9) https://practice.geeksforgeeks.org/problems/remove-duplicates3034/1#
-10) 
+10) https://practice.geeksforgeeks.org/problems/longest-distinct-characters-in-string5848/1
